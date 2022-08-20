@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;  
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+.container{
+   
+max-width: 1070px;
+margin: 0 auto;
+ }
+
+ .header {
+    background-color: rgba(255, 113, 67, 0.27);
+ padding: 38px 0 47px;
+}
+.header__flex, .footer__flex, .about {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer {
+    background-color: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 47px;
+}
+
+
+
+.nav_li {
+display: inline-block;
+}
+
+.nav_li:not(:first-of-type) {
+    margin-left: 49px;
+    }
+
+.nav_link {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    text-decoration: none;
+    
+    color: #696871;
+}
+
+.nav_link:hover{
+    color: black;
+    transition: 300ms;
+}
+
+
+ .btn1{
+    padding: 20px 30px;
+    margin: 20px 30px;
+ }
+
+ .button {
+    width: 212px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+color: #FFFFFF;
+ }
+
+ .button__orange {
+    
+    background-color: orange;
+     }  
+     .button__orange:hover {
+    
+        background-color: rgb(253, 190, 74);
+        transition: 500ms;
+         }                                
+.about {
+   margin-top: 104px;
+   margin-bottom: 84px;
+}
+.about__title {
+   font-weight: 700;
+   font-size: 80px;
+   line-height: 77px;
+   letter-spacing: -2.50105px;
+   max-width: 467px;
+   color: #19191B;
+   margin-bottom: 30px;
+   }
+
+
+.about__text {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   letter-spacing: -0.625263px;
+   max-width: 464px;
+   color: #696871;
+   margin-bottom: 50px;                  
+         }
+        
+         .button__violet {
+    
+            background-color: #5454D4;
+             }  
+             .button__violet:hover {
+            
+                background-color: #7272dd;
+                transition: 500ms;
+                 } 
+  .button__transparent {
+    
+    border: 1px solid #5454D4;
+    border-radius: 10px;
+    margin-left: 35px;
+    color: #5454D4;
+   }  
+.button__transparent:hover {
+                 
+  background-color: #d8d8d8;
+   transition: 500ms;
+           
